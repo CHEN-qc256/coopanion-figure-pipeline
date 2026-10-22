@@ -1,0 +1,31 @@
+{
+  "id": "claude",
+  "version": "1.0.0",
+  "name": {
+    "zh": "克劳德娘",
+    "zh-Hant": "克勞德娘",
+    "en": "Claude Chan",
+    "ja": "クロードちゃん"
+  },
+  "about": {
+    "zh": "一个 Q 版 Claude 娘：二头身、正面站立；暖橙色及膝长卷发，琥珀橙的大眼睛配粗黑上挑眼线，观众右手边一朵大号橙色雏菊配黑缎带与黑蕾丝垂带；白色维多利亚蕾丝衬衫（立领、泡泡短袖、胸前多层荷叶边、袖口橙色小花刺绣），领口黑蝴蝶结配橙宝石胸针；黑色系带束腰马甲，奶白色多层蛋糕裙配黑蕾丝裙边，白蕾丝短袜与黑玛丽珍鞋",
+    "en": "a chibi Claude girl, two heads tall, standing facing you: warm orange knee-length wavy hair, big amber eyes under a heavy black upper lash line, a large orange daisy with black ribbon and lace streamers on her left; a white Victorian lace blouse with a stand collar, puff sleeves and orange flower embroidery, a black bow with an amber brooch at the throat, a black laced corset, a cream layered cake skirt with black lace trim, white lace socks and black Mary Janes"
+  },
+  "author": "CHEN",
+  "license": "CC-BY-NC-SA-4.0",
+  "credits": [
+    {
+      "role": "形象生成与制作",
+      "name": "CHEN-qc256"
+    },
+    {
+      "role": "生图",
+      "name": "qwen-image（阿里云百炼）"
+    },
+    {
+      "role": "角色原型",
+      "name": "B 站「Claude 娘」二创形象"
+    }
+  ],
+  "export": "createClaudeBody"
+}

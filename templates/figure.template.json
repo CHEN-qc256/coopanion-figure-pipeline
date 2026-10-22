@@ -1,0 +1,718 @@
+{
+  "manifest": 2,
+  "api": 2,
+  "id": "example",
+  "version": "1.0.0",
+  "name": {
+    "zh": "示例形象",
+    "zh-Hant": "範例形象",
+    "en": "Example Figure",
+    "ja": "サンプル"
+  },
+  "about": {
+    "zh": "",
+    "en": ""
+  },
+  "author": "your name",
+  "license": "CC-BY-NC-SA-4.0",
+  "credits": [],
+  "entry": "figure.js",
+  "export": "createExampleBody",
+  "model": "model.json",
+  "thumb": "thumbs/cover.png",
+  "axes": [
+    {
+      "id": "palette",
+      "name": {
+        "zh": "配色",
+        "zh-Hant": "配色",
+        "en": "Colours",
+        "ja": "カラー",
+        "ko": "색상",
+        "fr": "Couleurs",
+        "de": "Farben",
+        "es-419": "Colores",
+        "pt-BR": "Cores",
+        "it": "Colori",
+        "ru": "Цвета"
+      },
+      "options": [
+        {
+          "id": "default",
+          "name": {
+            "zh": "原色",
+            "en": "Original"
+          }
+        },
+        {
+          "id": "snow",
+          "name": {
+            "zh": "霜白",
+            "en": "Frost"
+          }
+        },
+        {
+          "id": "dusk",
+          "name": {
+            "zh": "暮色",
+            "en": "Dusk"
+          }
+        },
+        {
+          "id": "night",
+          "name": {
+            "zh": "夜行",
+            "en": "Night"
+          }
+        },
+        {
+          "id": "vivid",
+          "name": {
+            "zh": "浓彩",
+            "en": "Vivid"
+          }
+        }
+      ]
+    }
+  ],
+  "presets": [],
+  "vocab": [
+    {
+      "id": "neutral",
+      "kind": "expression",
+      "names": {
+        "zh": [
+          "平静"
+        ],
+        "en": [
+          "calm"
+        ]
+      },
+      "about": {
+        "zh": "默认的脸",
+        "en": "the default face"
+      },
+      "seconds": 0.9
+    },
+    {
+      "id": "happy",
+      "kind": "expression",
+      "names": {
+        "zh": [
+          "开心"
+        ],
+        "en": [
+          "glad"
+        ]
+      },
+      "about": {
+        "zh": "眼睛弯起来,嘴角上扬",
+        "en": "eyes curve up, a smile"
+      },
+      "seconds": 0.9
+    },
+    {
+      "id": "wink",
+      "kind": "expression",
+      "names": {
+        "zh": [
+          "眨眼"
+        ],
+        "en": [
+          "blink"
+        ]
+      },
+      "about": {
+        "zh": "一只眼闭上",
+        "en": "one eye closes"
+      },
+      "seconds": 0.9
+    },
+    {
+      "id": "love",
+      "kind": "expression",
+      "names": {
+        "zh": [
+          "喜欢"
+        ],
+        "en": [
+          "adore"
+        ]
+      },
+      "about": {
+        "zh": "眼睛变成心形,冒小心心",
+        "en": "heart-shaped eyes, little hearts"
+      },
+      "seconds": 1.2
+    },
+    {
+      "id": "shy",
+      "kind": "expression",
+      "names": {
+        "zh": [
+          "害羞"
+        ],
+        "en": [
+          "bashful"
+        ]
+      },
+      "about": {
+        "zh": "脸红,眼神躲开",
+        "en": "blushes and looks away"
+      },
+      "seconds": 1
+    },
+    {
+      "id": "surprised",
+      "kind": "expression",
+      "names": {
+        "zh": [
+          "惊讶"
+        ],
+        "en": [
+          "shock"
+        ]
+      },
+      "about": {
+        "zh": "眼睛睁大,头顶感叹号",
+        "en": "eyes go wide, an exclamation mark"
+      },
+      "seconds": 0.8
+    },
+    {
+      "id": "angry",
+      "kind": "expression",
+      "names": {
+        "zh": [
+          "生气"
+        ],
+        "en": [
+          "mad"
+        ]
+      },
+      "about": {
+        "zh": "皱眉,头顶怒气符号",
+        "en": "a frown and an anger mark"
+      },
+      "seconds": 1
+    },
+    {
+      "id": "sad",
+      "kind": "expression",
+      "names": {
+        "zh": [
+          "难过"
+        ],
+        "en": [
+          "sorrow"
+        ]
+      },
+      "about": {
+        "zh": "八字眉,掉眼泪",
+        "en": "sad brows, tears"
+      },
+      "seconds": 1.2
+    },
+    {
+      "id": "sleepy",
+      "kind": "expression",
+      "names": {
+        "zh": [
+          "犯困"
+        ],
+        "en": [
+          "drowsy"
+        ]
+      },
+      "about": {
+        "zh": "眯眼打哈欠",
+        "en": "squints and yawns"
+      },
+      "seconds": 1.2
+    },
+    {
+      "id": "thinking",
+      "kind": "expression",
+      "names": {
+        "zh": [
+          "思考"
+        ],
+        "en": [
+          "ponder"
+        ]
+      },
+      "about": {
+        "zh": "眼睛往上看,头顶冒圈",
+        "en": "looks up, rings overhead"
+      },
+      "seconds": 1.2
+    },
+    {
+      "id": "smug",
+      "kind": "expression",
+      "names": {
+        "zh": [
+          "得意"
+        ],
+        "en": [
+          "proud"
+        ]
+      },
+      "about": {
+        "zh": "半眯眼,得意",
+        "en": "half-lidded and pleased"
+      },
+      "seconds": 1.2
+    },
+    {
+      "id": "pout",
+      "kind": "expression",
+      "names": {
+        "zh": [
+          "嘟嘴"
+        ],
+        "en": [
+          "sulk"
+        ]
+      },
+      "about": {
+        "zh": "鼓起嘴,别过脸",
+        "en": "pouts and looks away"
+      },
+      "seconds": 1.2
+    },
+    {
+      "id": "worried",
+      "kind": "expression",
+      "names": {
+        "zh": [
+          "担心"
+        ],
+        "en": [
+          "anxious"
+        ]
+      },
+      "about": {
+        "zh": "眉心发愁,冒汗",
+        "en": "worried brows and a sweat drop"
+      },
+      "seconds": 1.2
+    },
+    {
+      "id": "determined",
+      "kind": "expression",
+      "names": {
+        "zh": [
+          "认真"
+        ],
+        "en": [
+          "resolute"
+        ]
+      },
+      "about": {
+        "zh": "皱眉认真",
+        "en": "a determined frown"
+      },
+      "seconds": 1.2
+    },
+    {
+      "id": "flustered",
+      "kind": "expression",
+      "names": {
+        "zh": [
+          "慌张"
+        ],
+        "en": [
+          "panic"
+        ]
+      },
+      "about": {
+        "zh": "脸红冒汗,眼神乱飘",
+        "en": "blushing and flustered"
+      },
+      "seconds": 1
+    },
+    {
+      "id": "scared",
+      "kind": "expression",
+      "names": {
+        "zh": [
+          "害怕"
+        ],
+        "en": [
+          "fear"
+        ]
+      },
+      "about": {
+        "zh": "睁大眼睛发抖",
+        "en": "wide eyes and shaking"
+      },
+      "seconds": 1
+    },
+    {
+      "id": "excited",
+      "kind": "expression",
+      "names": {
+        "zh": [
+          "期待"
+        ],
+        "en": [
+          "eager"
+        ]
+      },
+      "about": {
+        "zh": "眼睛发亮,冒星星",
+        "en": "sparkling eyes"
+      },
+      "seconds": 1.2
+    },
+    {
+      "id": "cry",
+      "kind": "expression",
+      "names": {
+        "zh": [
+          "大哭"
+        ],
+        "en": [
+          "sob"
+        ]
+      },
+      "about": {
+        "zh": "闭眼大哭,眼泪直流",
+        "en": "eyes shut, crying hard"
+      },
+      "seconds": 1.5
+    },
+    {
+      "id": "confused",
+      "kind": "expression",
+      "names": {
+        "zh": [
+          "疑惑"
+        ],
+        "en": [
+          "puzzled"
+        ]
+      },
+      "about": {
+        "zh": "歪头,头顶问号",
+        "en": "tilts the head, a question mark"
+      },
+      "seconds": 1.2
+    },
+    {
+      "id": "stand",
+      "kind": "motion",
+      "names": {
+        "zh": [
+          "站起"
+        ],
+        "en": [
+          "standup"
+        ]
+      },
+      "about": {
+        "zh": "站起来(结束坐下或睡觉)",
+        "en": "gets up, ending a sit or a sleep"
+      },
+      "seconds": 0.9
+    },
+    {
+      "id": "jump",
+      "kind": "motion",
+      "names": {
+        "zh": [
+          "跳"
+        ],
+        "en": [
+          "leap"
+        ]
+      },
+      "about": {
+        "zh": "原地跳一下",
+        "en": "jumps in place"
+      },
+      "seconds": 0.9
+    },
+    {
+      "id": "hop",
+      "kind": "motion",
+      "names": {
+        "zh": [
+          "小跳"
+        ],
+        "en": [
+          "skip"
+        ]
+      },
+      "about": {
+        "zh": "轻快地跳一下",
+        "en": "a light hop"
+      },
+      "seconds": 0.8
+    },
+    {
+      "id": "look",
+      "kind": "motion",
+      "names": {
+        "zh": [
+          "张望"
+        ],
+        "en": [
+          "glance"
+        ]
+      },
+      "about": {
+        "zh": "左右看看",
+        "en": "looks around"
+      },
+      "seconds": 1.2
+    },
+    {
+      "id": "turn",
+      "kind": "motion",
+      "names": {
+        "zh": [
+          "转身"
+        ],
+        "en": [
+          "pivot"
+        ]
+      },
+      "about": {
+        "zh": "转过身去",
+        "en": "turns around"
+      },
+      "seconds": 1
+    },
+    {
+      "id": "nod",
+      "kind": "motion",
+      "names": {
+        "zh": [
+          "点头"
+        ],
+        "en": [
+          "agree"
+        ]
+      },
+      "about": {
+        "zh": "点头",
+        "en": "nods"
+      },
+      "seconds": 0.9
+    },
+    {
+      "id": "shake",
+      "kind": "motion",
+      "names": {
+        "zh": [
+          "摇头"
+        ],
+        "en": [
+          "deny"
+        ]
+      },
+      "about": {
+        "zh": "摇头",
+        "en": "shakes the head"
+      },
+      "seconds": 0.9
+    },
+    {
+      "id": "spin",
+      "kind": "motion",
+      "names": {
+        "zh": [
+          "转圈"
+        ],
+        "en": [
+          "twirl"
+        ]
+      },
+      "about": {
+        "zh": "原地转一圈",
+        "en": "spins once"
+      },
+      "seconds": 1.2
+    },
+    {
+      "id": "sit",
+      "kind": "motion",
+      "names": {
+        "zh": [
+          "坐下"
+        ],
+        "en": [
+          "sitdown"
+        ]
+      },
+      "about": {
+        "zh": "坐下来,保持住",
+        "en": "sits down and stays seated"
+      },
+      "seconds": 1,
+      "lasting": true
+    },
+    {
+      "id": "sleep",
+      "kind": "motion",
+      "names": {
+        "zh": [
+          "睡觉"
+        ],
+        "en": [
+          "slumber"
+        ]
+      },
+      "about": {
+        "zh": "睡着,保持住",
+        "en": "falls asleep and stays asleep"
+      },
+      "seconds": 1.5,
+      "lasting": true
+    },
+    {
+      "id": "dizzy",
+      "kind": "motion",
+      "names": {
+        "zh": [
+          "头晕"
+        ],
+        "en": [
+          "woozy"
+        ]
+      },
+      "about": {
+        "zh": "转晕了,眼冒圈圈",
+        "en": "dizzy, spirals for eyes"
+      },
+      "seconds": 1.5
+    },
+    {
+      "id": "walk",
+      "kind": "motion",
+      "names": {
+        "zh": [
+          "走"
+        ],
+        "en": [
+          "stroll"
+        ]
+      },
+      "about": {
+        "zh": "走几步",
+        "en": "walks a little"
+      },
+      "seconds": 1.2
+    },
+    {
+      "id": "run",
+      "kind": "motion",
+      "names": {
+        "zh": [
+          "跑"
+        ],
+        "en": [
+          "sprint"
+        ]
+      },
+      "about": {
+        "zh": "跑起来",
+        "en": "runs"
+      },
+      "seconds": 1.2
+    },
+    {
+      "id": "wave",
+      "kind": "motion",
+      "names": {
+        "zh": [
+          "挥手"
+        ],
+        "en": [
+          "greet"
+        ]
+      },
+      "about": {
+        "zh": "挥手打招呼",
+        "en": "waves"
+      },
+      "seconds": 1.2
+    },
+    {
+      "id": "bow",
+      "kind": "motion",
+      "names": {
+        "zh": [
+          "鞠躬"
+        ],
+        "en": [
+          "curtsy"
+        ]
+      },
+      "about": {
+        "zh": "鞠躬",
+        "en": "bows"
+      },
+      "seconds": 1.2
+    },
+    {
+      "id": "shiver",
+      "kind": "motion",
+      "names": {
+        "zh": [
+          "发抖"
+        ],
+        "en": [
+          "tremble"
+        ]
+      },
+      "about": {
+        "zh": "打个寒颤",
+        "en": "shivers"
+      },
+      "seconds": 1
+    },
+    {
+      "id": "flap",
+      "kind": "motion",
+      "names": {
+        "zh": [
+          "扑腾"
+        ],
+        "en": [
+          "flutter"
+        ]
+      },
+      "about": {
+        "zh": "上下扑腾",
+        "en": "flaps"
+      },
+      "seconds": 1
+    },
+    {
+      "id": "dance",
+      "kind": "motion",
+      "names": {
+        "zh": [
+          "跳舞"
+        ],
+        "en": [
+          "boogie"
+        ]
+      },
+      "about": {
+        "zh": "跳一小段舞",
+        "en": "dances a little"
+      },
+      "seconds": 2
+    }
+  ],
+  "sounds": {},
+  "can": {
+    "walk": true
+  },
+  "moves": [],
+  "needs": []
+}

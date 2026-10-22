@@ -1,0 +1,71 @@
+{
+  "forge": 2,
+  "size": 256,
+  "feetY": 256,
+  "view": [0, 0, 256, 256],
+  "extent": [0, 0, 256, 256],
+  "parts": [
+    {
+      "id": "body",
+      "tex": "body",
+      "x": 48.3,
+      "y": 0,
+      "w": 159.4,
+      "h": 256,
+      "z": 5,
+      "pivot": [128, 256],
+      "move": "body",
+      "overlay": false
+    }
+  ],
+  "pivots": {
+    "body": [128, 256],
+    "neck": [128, 96],
+    "hipNear": [138.5, 205],
+    "hipFar": [116, 205],
+    "shoulderNear": [152, 120],
+    "shoulderFar": [104, 120]
+  },
+  "feat": {
+    "art": false,
+    "eyes": {
+      "L": { "x": 108.7, "y": 69.2, "rx": 8.6, "ry": 9.2 },
+      "R": { "x": 143.0, "y": 69.2, "rx": 8.6, "ry": 9.2 }
+    },
+    "mouth": { "x": 123.9, "y": 84.6, "rx": 3.0, "ry": 1.7 }
+  },
+  "colors": {
+    "line": "#120705",
+    "sclera": "#fffaf3",
+    "eye": "#e0722a",
+    "lid": "#fde3cf",
+    "lid2": "#ffcfb4",
+    "mouth": "#b06a4e",
+    "accent": "#e0833c",
+    "irisDark": "#7a3a12",
+    "irisLight": "#f7ad46",
+    "pupil": "#3d1f0e",
+    "brow": "#c9803f",
+    "lash": "#0d0300"
+  },
+  "expressions": {},
+  "words": {},
+  "palettes": [
+    { "id": "default", "filter": "none" },
+    { "id": "snow", "filter": "saturate(0.55) brightness(1.08)" },
+    { "id": "dusk", "filter": "hue-rotate(-18deg) saturate(0.85) brightness(0.94)" },
+    { "id": "night", "filter": "hue-rotate(200deg) saturate(1.1) brightness(0.9)" },
+    { "id": "vivid", "filter": "saturate(1.45) contrast(1.04)" }
+  ],
+  "hits": [[128, 150, 112]],
+  "anchors": {
+    "z": [128, 26],
+    "tear": [108.7, 78],
+    "tears": [[108.7, 78], [143.0, 78]],
+    "anger": [160, 40],
+    "sweat": [168, 56],
+    "question": [172, 34]
+  },
+  "gestures": ["nod", "shake", "wave"],
+  "scale": 0.18755
+}

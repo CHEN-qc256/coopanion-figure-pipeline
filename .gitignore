@@ -1,0 +1,13 @@
+# 依赖（只在跑离线预览时才需要，不在仓库里）
+node_modules/
+
+# 产物与临时文件
+shots/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# 调试产物（可以随时重generate，且常带本机路径）
+examples/*/src/_*
+*.local.*

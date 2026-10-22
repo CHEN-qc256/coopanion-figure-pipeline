@@ -100,7 +100,7 @@ lib/            png.mjs（PNG 编解码）img.mjs（裁剪/缩放/抠图盒/主�
 tools/          prep / measure / profile / grid / explore / manifest / compose / shot / zoom / montage / diffbox
 tools/harness/  离线预览页 + Electron 主进程（截图用）
 templates/      figure.template.json —— 19 表情 / 18 动作的多语言词表骨架
-examples/claude/一个完整成品：原图、量点结果、手写的 figure.body.part.js、打好的包
+examples/claude/ 一个完整成品：原图、量点结果、手写的 figure.body.part.js、打好的包
 docs/           PIPELINE.md（流程）PITFALLS.md（坑）CASE-claude.md（案例数字）
 test/           lib 的自检（node --test）
 ```
